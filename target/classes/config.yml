@@ -1,0 +1,28 @@
+# TempRankManager Configuration
+# Choose your storage type: 'sqlite' or 'yaml'
+storage:
+  type: 'sqlite'  # Options: 'sqlite', 'yaml'
+  
+# SQLite settings (only used if storage type is 'sqlite')
+sqlite:
+  database-file: 'tempranks.db'
+  
+# YAML settings (only used if storage type is 'yaml')  
+yaml:
+  data-file: 'data.yml'
+
+# General settings
+settings:
+  # Whether to automatically clean up expired ranks on startup
+  cleanup-on-startup: true
+  
+  # How often to check for expired ranks (in minutes)
+  # Set to 0 to disable periodic cleanup
+  cleanup-interval: 60
+  
+  # Default group to assign when a temporary rank expires
+  default-group: 'default'
+  
+  # Whether to accumulate time when assigning the same rank to a player
+  # true: adds time to existing rank, false: replaces existing rank
+  accumulate-time: true

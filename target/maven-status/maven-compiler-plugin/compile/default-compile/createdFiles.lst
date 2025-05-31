@@ -1,0 +1,12 @@
+me\itzrenzo\temprankmanager\TempRankTabCompleter.class
+me\itzrenzo\temprankmanager\storage\StorageProvider.class
+me\itzrenzo\temprankmanager\storage\YamlStorageProvider.class
+me\itzrenzo\temprankmanager\DataManager.class
+me\itzrenzo\temprankmanager\TempRankManager.class
+me\itzrenzo\temprankmanager\SchedulerHandler.class
+me\itzrenzo\temprankmanager\TimeUtil.class
+me\itzrenzo\temprankmanager\TempRankCommand.class
+me\itzrenzo\temprankmanager\storage\SQLiteStorageProvider.class
+me\itzrenzo\temprankmanager\TempRankData.class
+me\itzrenzo\temprankmanager\SchedulerHandler$1.class
+me\itzrenzo\temprankmanager\SchedulerHandler$RankAssignmentResult.class

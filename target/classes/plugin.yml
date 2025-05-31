@@ -1,0 +1,14 @@
+name: TempRankManager
+version: '1.0'
+main: me.itzrenzo.temprankmanager.TempRankManager
+api-version: '1.21'
+load: STARTUP
+authors: [ ItzRenzo ]
+depend: [Vault]
+softdepend: [PlaceholderAPI]
+
+commands:
+  temprank:
+    description: Manage temporary ranks
+    usage: /temprank <give|remove|list> [args...] - Time format: 30s, 5m, 2h, 7d, 1mo
+    permission: temprankmanager.admin
